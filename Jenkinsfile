@@ -8,6 +8,8 @@ pipeline{
 
        scripts{
 
+             git 'https://github.com/veeresh595/JavaCICDapp.git'
+
        }
       } 
      }
