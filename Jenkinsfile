@@ -1,6 +1,6 @@
 pipeline{
 
-    agent any {
+    agent any
 
     stage('git checkout'){
 
@@ -10,8 +10,8 @@ pipeline{
 
              git 'https://github.com/veeresh595/JavaCICDapp.git'
 
-       }
+       
       } 
      }
     }
-   }
+   } 
