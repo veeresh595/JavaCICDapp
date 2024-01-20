@@ -19,7 +19,7 @@ pipeline{
                    )
        }
       }
-
+     }
        stage('Unit testing'){
 
          steps{
@@ -31,6 +31,5 @@ pipeline{
         }
        }
       }
-     }
     }
    } 
