@@ -9,8 +9,12 @@ pipeline{
 
        script{
 
-             git 'https://github.com/veeresh595/JavaCICDapp.git'
+             gitCheckout{
+                  
+		  branch:"master"
+		  url:"https://github.com/veeresh595/JavaCICDapp.git"
 
+        }
        }
       } 
      }
