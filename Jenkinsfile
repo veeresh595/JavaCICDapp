@@ -24,7 +24,7 @@ pipeline{
 
          steps{
 	      
-	      scripts{
+	      script{
 
 	            mvnTest()
 
