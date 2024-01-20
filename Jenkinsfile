@@ -1,4 +1,4 @@
-@Library('shared-library') _
+@Library('shared-library') 
 
 pipeline{
 
@@ -13,7 +13,7 @@ pipeline{
 
              gitCheckout{
                   
-		  branch:"master"
+		  branch:"master",
 		  url:"https://github.com/veeresh595/JavaCICDapp.git"
 
         }
