@@ -11,12 +11,12 @@ pipeline{
 
        script{
 
-             gitCheckout{
+             gitCheckout(
                   
 		  branch: "master",
 		  url: "https://github.com/veeresh595/JavaCICDapp.git"
 
-        }
+                   )
        }
       } 
      }
