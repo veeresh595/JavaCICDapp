@@ -18,7 +18,19 @@ pipeline{
 
                    )
        }
-      } 
+      }
+
+       stage('Unit testing'){
+
+         steps{
+	      
+	      scripts{
+
+	            mvnTest()
+
+        }
+       }
+      }
      }
     }
    } 
